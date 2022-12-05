@@ -1,0 +1,81 @@
+.div
+{
+    position: relative;
+    background: radial-gradient(#59106b, #1c0522);
+    border-radius: 20px;
+    color: white;
+    padding: 20px;
+    border: 1px white solid;
+    display: grid;
+    overflow: auto;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 100px;
+    justify-content: center;
+    width: max-content;
+    overflow-x: hidden;
+}
+.div h1
+{
+    font-size: 2vw;
+}
+.div h2
+{
+    font-size: 2vw;
+}
+.div span
+{
+    font-size: 1.5vw;
+}
+.div p
+{
+    font-size: 2vw;
+}
+.input
+{
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1.5vw;
+}
+.button
+{
+    background-color: #59106b;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px white solid;
+    color: white;
+}
+.button:hover
+{
+    background-color: white;
+    color:#1c0522;
+    padding: 10px;
+}
+
+@media (max-width: 667px)
+{
+    .div h1
+    {
+        font-size: 5vw;
+    }
+    .div h2
+    {
+        font-size: 4vw;
+    }
+    .div span
+    {
+        font-size: 4vw;
+    }
+    .div p
+    {
+        font-size: 4vw;
+    }
+    .div
+    {
+        width: 80vw;
+    }
+    .input
+    {
+        font-size: 3vw;
+    }
+}
