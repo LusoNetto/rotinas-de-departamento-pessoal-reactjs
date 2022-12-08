@@ -42,7 +42,7 @@ export function CalculoDeFolhaDePgto() {
             <span>Campo somatório de todos os descontos:</span>
             <p>R${((salarioBruto*0.36)+aliquota).toFixed(3)}</p>
             <span>Salário liquido:</span>
-            <p>R${(salarioBruto-(salarioBruto*0.36)).toFixed(3)}</p>
+            <p>R${(salarioBruto-(salarioBruto*0.36)-aliquota).toFixed(3)}</p>
         </div>
     )
 }
